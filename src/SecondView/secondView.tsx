@@ -27,7 +27,7 @@ export default function SecondView() {
       </div>
       <div className='w-screen h-[200px] bg-yellow-500 bg-[url("/Main_photovoltaic.png")] bg-center bg-cover bg-fixed relative'>
         <div className='absolute w-full h-full bg-gray-900/[0.5]'></div>
-        <div className='text-center text-white text-[28px] pt-[50px] relative '>"Zaufaj wieloletniemu doświedczeniu naszemu oraz naszych partnerów i <br></br>tysiącom wykonanych instalacji."</div>
+        <div className='text-center text-white text-[28px] pt-[50px] relative '>&ldquo;Zaufaj wieloletniemu doświedczeniu naszemu oraz naszych partnerów i <br></br>tysiącom wykonanych instalacji.&ldquo;</div>
       </div>
     </div>
   )
