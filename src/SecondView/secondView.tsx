@@ -14,7 +14,7 @@ export default function SecondView() {
         <div className='mt-[30px] border border-green-700 py-[9px] text-[22px] bg-green-700 text-center w-[450px] text-white rounded-[10px] hover:bg-white hover:text-green-700 duration-150 cursor-pointer'>Zamiawiam bezpłatną wycenę</div>
         </div>
         <div className='h-full border-yellow-600 w-[500px] flex justify-center items-center relative'>
-          <div className='absolute bg-[#a7e06a]/[0.2] w-[1100px] h-[380px] text-[100px] border-[#a7e06a] top-[130px] -right-[46vw] rounded-[20px] shadow-md'></div>
+          <div className='absolute bg-[#a7e06a]/[0.2] w-[1100px] h-[380px] text-[100px] border-[#a7e06a] top-[130px] -right-[700px] rounded-[20px] shadow-md'></div>
           <div className='z-50 w-[550px] h-full flex items-center'>
             <Image
               src="/photovoltaic_ok.png"

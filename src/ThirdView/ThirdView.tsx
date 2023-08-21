@@ -5,9 +5,9 @@ import {PiNumberSquareOneThin, PiNumberSquareTwoThin, PiNumberSquareThreeThin, P
 export default function ThirdView() {
   return (
     <div className=' w-screen h-[700px] pb-[100px]'>
-      <div className='w-[1000px] mx-auto h-full flex'>
+      <div className='w-[1000px] mx-auto h-full flex border'>
       <div className='h-full border-yellow-600 w-[500px] flex justify-center items-center relative'>
-          <div className='absolute bg-[#56BA46] w-[1100px] h-[380px] border-[rgb(167,224,106)] top-[130px] -left-[45vw] rounded-[20px] shadow-xl text-white text-[16px] pl-[600px] flex flex-col justify-center'>
+          <div className='absolute bg-[#56BA46] w-[1100px] h-[380px] border-[rgb(167,224,106)] top-[130px] -left-[630px] rounded-[20px] shadow-xl text-white text-[16px] pl-[600px] flex flex-col justify-center'>
             <div className='flex h-[80px] w-[450px] items-center'>            
               <div className='w-[60px] h-[60px]'><PiNumberSquareOneThin className="w-full h-full" /></div><p className='w-[390px]'>Produkujesz swój <b>własny prąd</b>, więc nie musisz kupować go od zakładu energetycznego</p>
             </div>
