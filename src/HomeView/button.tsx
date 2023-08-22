@@ -7,9 +7,9 @@ import {MdOutlineStorage} from 'react-icons/md'
 export default function Button() {
 
 
-    const photovoltaic = useRef();
-    const heatPump = useRef();
-    const energyBank = useRef();
+    const photovoltaic:any = useRef();
+    const heatPump:any = useRef();
+    const energyBank:any = useRef();
 
 
       useEffect(() => {
