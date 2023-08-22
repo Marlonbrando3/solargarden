@@ -13,7 +13,7 @@ export default function ThirdView() {
               <div className='w-[60px] h-[60px]'><PiNumberSquareOneThin className="w-full h-full" /></div><p className='w-[270px] md:w-[390px]'>Produkujesz swój <b>własny prąd</b>, więc nie musisz kupować go od zakładu energetycznego</p>
             </div>
             <div className='flex h-[120px] md:h-[80px] w-[450px] items-center'>            
-              <div className='w-[60px] h-[60px]'><PiNumberSquareTwoThin className="w-full h-full" /></div><p className='w-[270px] md:w-[390px]'>Koszt instalacji jest <b>wniski i jednorazowy</b> orz możliwy do rozłożenia na nieodczuwalne raty</p>
+              <div className='w-[60px] h-[60px]'><PiNumberSquareTwoThin className="w-full h-full" /></div><p className='w-[270px] md:w-[390px]'>Koszt instalacji jest <b>niski i jednorazowy</b> orz możliwy do rozłożenia na nieodczuwalne raty</p>
             </div>
             <div className='flex h-[120px] md:h-[80px] w-[450px] items-center '>            
               <div className='w-[60px] h-[60px]'><PiNumberSquareThreeThin className="w-full h-full" /></div><p className='w-[270px] md:w-[390px]'>Masz możliwość łącznie uzyskać ponad <b>44 000 zł dofinansowań z programów Państwowych</b></p>
