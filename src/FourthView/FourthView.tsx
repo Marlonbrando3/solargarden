@@ -68,22 +68,22 @@ export default function ThirdView() {
         <div className='h-auto w-full md:w-[500px] flex md:flex-col flex-wrap md:justify-center flex-row items-center justify-center'>
           <div ><p className='text-[30px] leading-9'>Jak to działa</p></div>
           <div className='bg-[#a7e06a]/[0.7] h-[5px] w-[80vw] md:w-[50vw] -ml-[20vw] mt-[8px] mb-[10px]'></div>
-            <div data-name="1" onClick={e => handleChosedInfo(e)} className={choosed[0].status === false ? 'flex h-auto md:h-[80px] md:w-[550px] items-center md:-ml-[50px] md:text-[22px] cursor-pointer border border-gray-800':'flex h-auto md:h-[80px] md:w-[550px] items-center md:-ml-[50px] md:text-[22px] cursor-pointer border border-gray-800 bg-green-600/[0.2] font-bold'}>            
+            <div data-name="1" onClick={e => handleChosedInfo(e)} className={choosed[0].status === false ? 'flex h-auto md:h-[80px] md:w-[550px] items-center md:-ml-[50px] md:text-[22px] cursor-pointer border border-gray-800':'flex h-auto md:h-[80px] md:w-[550px] items-center md:-ml-[50px] md:text-[22px] cursor-pointer border border-gray-800 bg-green-600/[0.2]'}>            
               <p data-name="1" className='md:w-[390px] p-[5px]'>Instalacja  fotowoltaiczna</p>
             </div>
-            <div data-name="2" onClick={e => handleChosedInfo(e)} className={choosed[1].status === false ? 'flex h-auto md:h-[80px] md:w-[550px] items-center md:-ml-[50px] md:text-[22px] cursor-pointer border border-gray-800':'flex h-auto md:h-[80px] md:w-[550px] items-center md:-ml-[50px] md:text-[22px] cursor-pointer border border-gray-800 bg-green-600/[0.2] font-bold'}>            
+            <div data-name="2" onClick={e => handleChosedInfo(e)} className={choosed[1].status === false ? 'flex h-auto md:h-[80px] md:w-[550px] items-center md:-ml-[50px] md:text-[22px] cursor-pointer border border-gray-800':'flex h-auto md:h-[80px] md:w-[550px] items-center md:-ml-[50px] md:text-[22px] cursor-pointer border border-gray-800 bg-green-600/[0.2]'}>            
               <p data-name="2" className='md:w-[390px] p-[5px]'>Pompa ciepła</p>
             </div>
-            <div data-name="3" onClick={e => handleChosedInfo(e)} className={choosed[2].status === false ? 'flex h-auto md:h-[80px] md:w-[550px] items-center md:-ml-[50px] md:text-[22px] cursor-pointer border border-gray-800':'flex h-auto md:h-[80px] md:w-[550px] items-center md:-ml-[50px] md:text-[22px] cursor-pointer border border-gray-800 bg-green-600/[0.2] font-bold'}>            
+            <div data-name="3" onClick={e => handleChosedInfo(e)} className={choosed[2].status === false ? 'flex h-auto md:h-[80px] md:w-[550px] items-center md:-ml-[50px] md:text-[22px] cursor-pointer border border-gray-800':'flex h-auto md:h-[80px] md:w-[550px] items-center md:-ml-[50px] md:text-[22px] cursor-pointer border border-gray-800 bg-green-600/[0.2]'}>            
               <p data-name="3" className='w-[100px] md:w-[390px] p-[5px]'>Magazyn energii</p>
             </div>
-            <div data-name="4" onClick={e => handleChosedInfo(e)} className={choosed[3].status === false ? 'flex h-auto md:h-[80px] md:w-[550px] items-center md:-ml-[50px] md:text-[22px] cursor-pointer border border-gray-800':'flex h-auto md:h-[80px] md:w-[550px] items-center md:-ml-[50px] md:text-[22px] cursor-pointer border border-gray-800 bg-green-600/[0.2] font-bold'}>            
+            <div data-name="4" onClick={e => handleChosedInfo(e)} className={choosed[3].status === false ? 'flex h-auto md:h-[80px] md:w-[550px] items-center md:-ml-[50px] md:text-[22px] cursor-pointer border border-gray-800':'flex h-auto md:h-[80px] md:w-[550px] items-center md:-ml-[50px] md:text-[22px] cursor-pointer border border-gray-800 bg-green-600/[0.2]'}>            
               <p data-name="4" className='w-[227px] md:w-[390px] p-[5px]'>Instalacja fotowoltaiczna z magazynem energii</p>
             </div>
-            <div data-name="5" onClick={e => handleChosedInfo(e)} className={choosed[4].status === false ? 'flex h-auto md:h-[80px] md:w-[550px] items-center md:-ml-[50px] md:text-[22px] cursor-pointer border border-gray-800':'flex h-auto md:h-[80px] md:w-[550px] items-center md:-ml-[50px] md:text-[22px] cursor-pointer border border-gray-800 bg-green-600/[0.2] font-bold'}>            
+            <div data-name="5" onClick={e => handleChosedInfo(e)} className={choosed[4].status === false ? 'flex h-auto md:h-[80px] md:w-[550px] items-center md:-ml-[50px] md:text-[22px] cursor-pointer border border-gray-800':'flex h-auto md:h-[80px] md:w-[550px] items-center md:-ml-[50px] md:text-[22px] cursor-pointer border border-gray-800 bg-green-600/[0.2]'}>            
               <p data-name="5" className='w-[329px] md:w-[390px] p-[5px]'>Rozwiązania i dofinansowania dla rolnictwa </p>
             </div>
-            <div data-name="6" onClick={e => handleChosedInfo(e)} className={choosed[5].status === false ? 'flex h-auto md:h-[80px] md:w-[550px] items-center md:-ml-[50px] md:text-[22px] cursor-pointer border border-gray-800':'flex h-auto md:h-[80px] md:w-[550px] items-center md:-ml-[50px] md:text-[22px] cursor-pointer border border-gray-800 bg-green-600/[0.2] font-bold'}>            
+            <div data-name="6" onClick={e => handleChosedInfo(e)} className={choosed[5].status === false ? 'flex h-auto md:h-[80px] md:w-[550px] items-center md:-ml-[50px] md:text-[22px] cursor-pointer border border-gray-800':'flex h-auto md:h-[80px] md:w-[550px] items-center md:-ml-[50px] md:text-[22px] cursor-pointer border border-gray-800 bg-green-600/[0.2]'}>            
               <p data-name="6" className='w-[329px] md:w-[390px] p-[5px]'>Rozwiązania i dofinansowania dla firm </p>
             </div>
         </div>
