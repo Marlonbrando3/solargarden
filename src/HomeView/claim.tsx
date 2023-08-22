@@ -16,7 +16,7 @@ export default function Claim() {
             <h1 className='text-[30px] xl:text-[45px] leading-10 text-white md:text-auto'>Magazyny energii</h1>
             <p className='text-[10px] xl:text-[20px] leading-9 text-[#a7e06a] ml-[15px]'>dofinansowanie do <b>16 000 zł</b></p>
         </div>
-        <div className='mt-[30px] py-[9px] text-[22px] bg-[#a7e06a] border-[#a7e06a] border text-center w-[250px] text-white rounded-[10px] hover:bg-white hover:text-green-700 duration-150 cursor-pointer'>Bezpłatna wycena</div>
+        <div className='mt-[50px] md:mt-[30px] py-[9px] text-[22px] bg-[#a7e06a] border-[#a7e06a] border text-center w-[250px] text-white rounded-[10px] hover:bg-white hover:text-green-700 duration-150 cursor-pointer'>Bezpłatna wycena</div>
     </div>
     </div>
   )
