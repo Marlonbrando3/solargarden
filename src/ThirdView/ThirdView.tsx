@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import {PiNumberSquareOneThin, PiNumberSquareTwoThin, PiNumberSquareThreeThin, PiNumberSquareFourThin} from 'react-icons/pi'
 
 export default function ThirdView() {
@@ -32,7 +33,7 @@ export default function ThirdView() {
           <br></br><br></br>
           
           <b>Pompa ciepła</b> również może pobierać energię z Twojej instalacji fotowoltaicznej, tym samym uniezależniasz się zakupu węgla, ekogroszku, peletu i innych oraz ich stale rosnących cen, a dzięki <b>Magazynowi energii</b> będzięsz mógł uczynić swoją instalację bardziej niezależną, skrając okres zwrotu całej inwestycji.</p></div>
-        <div className='mt-[30px] border border-green-700 py-[9px] text-[18px] bg-green-700 text-center md:w-[350px] text-white rounded-[10px] hover:bg-white hover:text-green-700 duration-150 cursor-pointer'>Zamiawiam bezpłatną wycenę</div>
+          <Link href="/#contact" data-name="contact"><div className='mt-[30px] border border-green-700 py-[9px] text-[18px] bg-green-700 text-center md:w-[350px] text-white rounded-[10px] hover:bg-white hover:text-green-700 duration-150 cursor-pointer'>Zamiawiam bezpłatną wycenę</div></Link>
         </div>
       </div>
     </div>

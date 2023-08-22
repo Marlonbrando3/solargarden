@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import { useState } from 'react'
 import Image from 'next/image'
 import {PiNumberSquareOneThin, PiNumberSquareTwoThin, PiNumberSquareThreeThin, PiNumberSquareFourThin} from 'react-icons/pi'
@@ -41,8 +42,8 @@ export default function ContactForm() {
           </div>
         </div>
         <div className='h-full md:w-[500px] flex flex-col justify-center'>
-          <div><p className='text-[25px] md:text-[30px] leading-9'>Skontaktuj się z nami lub<br></br> poproś o bezpłatną ofertę</p>
-          </div>
+        <Link href="/#contact" data-name="contact"><div><p className='text-[25px] md:text-[30px] leading-9'>Skontaktuj się z nami lub<br></br> poproś o bezpłatną ofertę</p>
+          </div></Link>
           <div className='bg-[#a7e06a]/[0.7] h-[5px] w-[50vw] -ml-[20vw] mt-[8px] mb-[10px]'></div>
           <p><b>Solar Garden</b> <br></br> marka Onesta Group Sp z o.o</p>
           <p>46-100 Namysłów,,<br></br> ul. Oleśnicka 13B</p>

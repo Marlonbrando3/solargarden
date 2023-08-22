@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function SecondView() {
   return (
@@ -11,7 +12,7 @@ export default function SecondView() {
           <div><p className=''><b>Zestawy fotowoltaiczne od Solar Garden</b> to bezpieczene i sprawdzone jakościowo rozwiązania oparte o lata doświadczeń, tysiące wykonanych instalacji fotowoltaicznych oraz najlepsze dostępne podzespoły. Nasz model współpracy zapewnia najwyższą jakość wykonanej instalacji mimo konkurencyjnych cen. <br></br><br></br>
           <b>Instalacja fotowoltaiczna</b> jako taka spowoduje, że staniesz się niezależny od zakładów energetycznych tym samym uwalniając się od konieczności płacenia wysokich rachunków za prąd. Twoja własna elektrownia fotowoltaiczna zapewni Tobie, Twojemu gospodarstwu lub firmie niezbędna do działania energię.
           </p></div>
-        <div className='mt-[30px] border border-green-700 py-[9px] text-[18px] md:text-[22px] bg-green-700 text-center md:w-[450px] text-white rounded-[10px] hover:bg-white hover:text-green-700 duration-150 cursor-pointer'>Zamiawiam bezpłatną wycenę</div>
+          <Link href="/#contact" data-name="contact"><div className='mt-[30px] border border-green-700 py-[9px] text-[18px] md:text-[22px] bg-green-700 text-center md:w-[450px] text-white rounded-[10px] hover:bg-white hover:text-green-700 duration-150 cursor-pointer'>Zamiawiam bezpłatną wycenę</div></Link>
         </div>
         <div className='hidden  h-full border-yellow-600 w-[500px] md:flex justify-center items-center relative'>
           <div className='absolute bg-[#a7e06a]/[0.2] w-[1100px] h-[380px] text-[100px] border-[#a7e06a] top-[130px] -right-[700px] rounded-[20px] shadow-md'></div>
