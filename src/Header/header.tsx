@@ -24,7 +24,7 @@ export default function Header() {
                 <div className='w-[130px] xl:w-[180px] h-[100px] relative md:mr-[40px]'>
                     <Image alt="logo" src="/Green_logo_solar_garden.png" fill className='object-contain py-[12px]'></Image>
                 </div>
-            <div ref={menu} className={menuShowed === true ? 'flex text-[16px] bg-white items-center h-screen xl:h-[100px] xl:w-[500px] w-[100vw] flex-col xl:flex-row absolute xl:static -right-[0%] duration-150 z-50' : 
+            <div data-ref={menu} className={menuShowed === true ? 'flex text-[16px] bg-white items-center h-screen xl:h-[100px] xl:w-[500px] w-[100vw] flex-col xl:flex-row absolute xl:static -right-[0%] duration-150 z-50' : 
             'flex text-[16px] bg-white items-center w-[100vw] h-[100vh] xl:h-[100px] xl:w-[860px] flex-col xl:flex-row absolute xl:static -right-[100vw] duration-150 z-50'}>
                 <p className='px-[11px] cursor-pointer duration-300 border-b-white border-b-2 hover:border-b-[#a7e06a]'>Strona główna</p>
                 <p className='px-[11px] cursor-pointer duration-300 border-b-white border-b-2 hover:border-b-[#a7e06a]'>Dla domu</p>
