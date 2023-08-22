@@ -63,7 +63,7 @@ export default function ThirdView() {
 
 
   return (
-    <div className=' w-screen h-[700px] pb-[100px]'>
+    <div className='hidden md:block w-screen h-[700px] pb-[100px]'>
       <div className='w-[1000px] mx-auto h-full flex'>
         <div className='h-full w-[500px] flex flex-col justify-center'>
           <div><p className='text-[30px] leading-9'>Jak to działa</p></div>
