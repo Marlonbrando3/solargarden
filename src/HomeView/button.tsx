@@ -34,8 +34,6 @@ export default function Button() {
 
       },[])
 
-
-
   return (
     <div className='w-screen h-[11vh] md:h-[100px] flex justify-center'>
         <div className='w-[90vw] md:w-[1150px] md:h-[100px] flex justify-start items-center'>

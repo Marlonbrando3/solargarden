@@ -8,7 +8,7 @@ export default function ContactForm() {
 
 
   return (
-    <div className=' w-screen md:h-[700px] pb-[100px]'>
+    <div id="contact" className=' w-screen md:h-[700px] pb-[100px]'>
       <div className='w-[90vw] mx-[2.5vw] md:w-[1000px] h-full flex flex-col-reverse'>
         <div className='h-full border-yellow-600 md:w-[500px] flex justify-center items-center relative'>
           <div className='md:absolute bg-[#56BA46] w-[90vw] md:w-[1100px] h-[580px] border-[rgb(167,224,106)] md:pl-[540px] top-[30px] -left-[45vw] rounded-[20px] shadow-xl text-white text-[16px] flex flex-col justify-center px-[10px] md:px-auto'>

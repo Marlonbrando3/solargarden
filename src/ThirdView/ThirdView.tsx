@@ -4,7 +4,7 @@ import {PiNumberSquareOneThin, PiNumberSquareTwoThin, PiNumberSquareThreeThin, P
 
 export default function ThirdView() {
   return (
-    <div className=' w-screen md:h-[700px] pb-[100px]'>
+    <div className='w-screen md:h-[700px] pb-[100px]'>
       <div className='w-screen md:w-[1000px] mx-auto h-full flex flex-col-reverse'>
       <div className='h-full border-yellow-600 w-[90vw] md:w-[500px] mx-[2.5vw] flex justify-center items-center relative'>
           <div className='md:absolute bg-[#56BA46] w-full h-[420px] md:h-[380px] border-[rgb(167,224,106)] top-[130px] -left-[630px] rounded-[20px] shadow-xl text-white text-[16px] md:pl-[600px] flex flex-col md:justify-center justify-evenly my-[20px] md:my-auto'>

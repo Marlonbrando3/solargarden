@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Link from 'next/link'
 import { useRef } from 'react'
 import Image from 'next/image'
 import {BiMenu} from "react-icons/bi"
@@ -32,12 +33,12 @@ export default function Header() {
                 </div>
             <div data-ref={menu} className={menuShowed === true ? 'flex text-[16px] bg-white items-center h-screen xl:h-[100px] xl:w-[500px] w-[100vw] flex-col xl:flex-row justify-center absolute xl:static -right-[0%] duration-150 z-50' : 
             'flex text-[16px] bg-white items-center w-[100vw] h-[100vh] xl:h-[100px] xl:w-[860px] flex-col xl:flex-row absolute xl:static -right-[100vw] duration-150 z-50'}>
-                <p className='px-[11px] cursor-pointer duration-300 border-b-white border-b-2 hover:border-b-[#a7e06a]' onClick={handleClikedMenuOnMobile}>Strona główna</p>
-                <p className='px-[11px] cursor-pointer duration-300 border-b-white border-b-2 hover:border-b-[#a7e06a]' onClick={handleClikedMenuOnMobile}>Dla domu</p>
-                <p className='px-[11px] cursor-pointer duration-300 border-b-white border-b-2 hover:border-b-[#a7e06a]' onClick={handleClikedMenuOnMobile}>Dla firmy</p>
-                <p className='px-[11px] cursor-pointer duration-300 border-b-white border-b-2 hover:border-b-[#a7e06a]' onClick={handleClikedMenuOnMobile}>Dla rolnictwa</p>
-                <p className='px-[11px] cursor-pointer duration-300 border-b-white border-b-2 hover:border-b-[#a7e06a]' onClick={handleClikedMenuOnMobile}>Baza wiedzy</p>
-                <p className='px-[11px] cursor-pointer duration-300 border-b-white border-b-2 hover:border-b-[#a7e06a]' onClick={handleClikedMenuOnMobile}>Kontakt</p>
+                <Link href="/#home" data-name="home"><p className='px-[11px] cursor-pointer duration-300 border-b-white border-b-2 hover:border-b-[#a7e06a]' onClick={handleClikedMenuOnMobile}>Strona główna</p></Link>
+                <Link href="/#howitworks" data-name="howitworks"><p className='px-[11px] cursor-pointer duration-300 border-b-white border-b-2 hover:border-b-[#a7e06a]' onClick={handleClikedMenuOnMobile}>Dla domu</p></Link>
+                <Link href="/#howitworks" data-name="howitworks"><p className='px-[11px] cursor-pointer duration-300 border-b-white border-b-2 hover:border-b-[#a7e06a]' onClick={handleClikedMenuOnMobile}>Dla firmy</p></Link>
+                <Link href="/#howitworks" data-name="howitworks"><p className='px-[11px] cursor-pointer duration-300 border-b-white border-b-2 hover:border-b-[#a7e06a]' onClick={handleClikedMenuOnMobile}>Dla rolnictwa</p></Link>
+                {/* <p className='px-[11px] cursor-pointer duration-300 border-b-white border-b-2 hover:border-b-[#a7e06a]' onClick={handleClikedMenuOnMobile}>Baza wiedzy</p> */}
+                <Link href="/#contact" data-name="contact"><p className='px-[11px] cursor-pointer duration-300 border-b-white border-b-2 hover:border-b-[#a7e06a]' onClick={handleClikedMenuOnMobile}>Kontakt</p></Link>
             </div>
             <div className='xl:ml-[40px]  w-[200] md:w-[300px]'>
                 <div className='text-[10px] md:text-[16px] flex flex-col justify-center items-end h-full pl-[30px] md:text-white'>
