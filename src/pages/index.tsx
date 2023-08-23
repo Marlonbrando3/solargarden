@@ -15,7 +15,6 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
         <>
-
         <Script async src="https://www.googletagmanager.com/gtag/js?id=G-NBHETQV47R"></Script>
         <Script id="google-analitycs">{`
           window.dataLayer = window.dataLayer || [];
