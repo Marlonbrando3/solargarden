@@ -6,9 +6,9 @@ import {PiNumberSquareOneThin, PiNumberSquareTwoThin, PiNumberSquareThreeThin, P
 export default function ThirdView() {
   return (
     <div className='w-screen md:h-[700px] pb-[100px]'>
-      <div className='w-screen md:w-[1000px] mx-auto h-full flex flex-col-reverse'>
-      <div className='h-full border-yellow-600 w-[90vw] md:w-[500px] mx-[2.5vw] flex justify-center items-center relative'>
-          <div className='md:absolute bg-[#56BA46] w-full h-[420px] md:h-[380px] border-[rgb(167,224,106)] top-[130px] -left-[630px] rounded-[20px] shadow-xl text-white text-[16px] md:pl-[600px] flex flex-col md:justify-center justify-evenly my-[20px] md:my-auto'>
+      <div className='w-screen md:w-[1000px] mx-auto h-full flex flex-col-reverse md:flex-row-reverse'>
+      <div className='h-full border-yellow-600 w-[90vw] md:w-[500px] mx-[2.5vw] md:mx-0 flex justify-center items-center relative'>
+          <div className='bg-[#56BA46] h-[420px] md:h-[380px] w-[900px] border-[rgb(167,224,106)] top-[130px] -mr-[800px] rounded-l-[20px] shadow-xl text-white text-[16px] md:pl-[10px] flex flex-col md:justify-center justify-evenly my-[20px] md:my-auto'>
             <div className='flex h-[120px] md:h-[80px] items-center'>            
               <div className='w-[60px] h-[60px]'><PiNumberSquareOneThin className="w-full h-full" /></div><p className='w-[270px] md:w-[390px]'>Produkujesz swój <b>własny prąd</b>, więc nie musisz kupować go od zakładu energetycznego</p>
             </div>
@@ -26,7 +26,7 @@ export default function ThirdView() {
             <p></p>
           </div>
         </div>
-        <div className='md:h-full border-red-600 w-[90vw] md:w-[500px] mx-[2.5vw] flex flex-col justify-center'>
+        <div className='md:h-full border-red-600 w-[90vw] md:w-[500px] mx-[2.5vw] md:mx-0 flex flex-col justify-center px-[10px]'>
           <div><p className='text-[30px] leading-9'>Korzyści i oszczędność dla Ciebie</p></div>
           <div className='bg-[#a7e06a]/[0.7] h-[5px] w-full -mr-[20vw] mt-[8px] mb-[10px]'></div>
           <div><p className=''><b>Instalacja fotowoltaiczna</b> to jednorazowa inwestycja na lata, która dzięki licznym dofinansowanim zwraca się w okresieśrednio 6 lat, a pracuje dla Ciebie przez ok 30 lat. Zatem prąd który wyprodukuje Twoja instalacja przez 30 lat nie będzie musiał być kupowany od zakładu energetycznego i (pomijając koszty stałe) przestaniesz płacić rachunki za prąd. 
