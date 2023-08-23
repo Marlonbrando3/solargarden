@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Head from 'next/head'
+import Script from 'next/script'
 import { Inter } from 'next/font/google'
 import Header from '@/Header/header'
 import HomeView from '@/HomeView/homeView'
@@ -14,6 +15,15 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
         <>
+
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-NBHETQV47R"></Script>
+        <Script id="google-analitycs">{`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-NBHETQV47R');`}
+
+        </Script>
         <Head>
           <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1"></meta>
           <link rel="preconnect" href="https://fonts.googleapis.com"></link>
