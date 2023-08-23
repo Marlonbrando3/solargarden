@@ -6,6 +6,7 @@ import HomeView from '@/HomeView/homeView'
 import SecondView from '@/SecondView/secondView'
 import ThirdView from '@/ThirdView/ThirdView'
 import FourthView from '@/FourthView/FourthView'
+import Partners from '@/Partners/partners'
 import ContactForm from '@/ContactForm/ContactForm'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -25,6 +26,7 @@ export default function Home() {
         <SecondView />
         <ThirdView />
         <FourthView />
+        <Partners />
         <ContactForm />
       </main>
     </>
