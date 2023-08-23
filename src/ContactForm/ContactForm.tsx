@@ -62,7 +62,7 @@ export default function ContactForm() {
           </form>
         </div>
         <div className='h-full md:w-[500px] flex flex-col justify-center mx-[5vw] md:mx-[10px]'>
-          <Link href="/#contact" data-name="contact"><div><p className='text-[25px] md:text-[30px] leading-9'>Skontaktuj się z nami lub<br></br> poproś o bezpłatną ofertę</p>
+          <Link href="/#contact" data-name="contact"><div><p className='text-[22px] md:text-[30px] leading-9'>Skontaktuj się z nami lub<br></br> poproś o bezpłatną ofertę</p>
           </div></Link>
           <div className='bg-[#a7e06a]/[0.7] h-[5px] w-[50vw] -mr-[20vw] mt-[8px] mb-[10px]'></div>
           <p><b>Solar Garden</b> <br></br> marka Onesta Group Sp z o.o</p>
