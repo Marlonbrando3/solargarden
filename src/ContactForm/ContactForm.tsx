@@ -108,15 +108,16 @@ export default function ContactForm() {
           </div></Link>
           <div className='bg-[#a7e06a]/[0.7] h-[5px] w-[50vw] -mr-[20vw] mt-[8px] mb-[10px]'></div>
           <p><b>Solar Garden</b> <br></br> marka Onesta Group Sp z o.o</p>
-          <p>46-100 Namysłów,,<br></br> ul. Oleśnicka 13B</p>
-          <p>-</p>
+          <p>Dostarczamy produkty i świadczę usługi u klientów</p>
+          {/* <p>46-100 Namysłów,,<br></br> ul. Oleśnicka 13B</p>
+          <p>-</p> */}
           <p>kontakt@solargarden.com.pl</p>
           <p>+48 669 75 25 25</p>
           <p className='mt-[40px]'></p>
-          <p><b>Adres rejestrowy firmy:</b></p>
+          {/* <p><b>Adres rejestrowy firmy:</b></p>
           <p>Onesta Group Sp z o.o</p>
           <p>53-148 Wrocław,<br></br> ul. Wolbromska 18/1b</p>
-          <p>NIP: 8992922378</p>
+          <p>NIP: 8992922378</p> */}
         </div>
       </div>
       </div>
